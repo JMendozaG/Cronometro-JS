@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'> 
+    <title>Cronometro</title>
+  </head>
+  <body onload="stop()">
+  <div class="main">
+    <div class="container">
+  <div class="circle">
+      <div id="stopwatch" class="stopwatch">00:00</div>
+      <div class="buttons">
+          <div class="stop" onclick="stop()"> </div>
+          <div id="play-pause" class="paused" onclick="PlayPause()"> </div>
+      </div>
+  </div>
+  <div id="seconds-sphere" class="seconds-sphere"></div>
+   
+</div>
+  </div>
+  </body>
+</html>
